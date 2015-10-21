@@ -171,16 +171,23 @@ https://twitter.com/marco_bf
     </path>
     <rect x="10" y="475.571" fill="#fefae9" width="180" height="4" />
 </svg>
-<div class="text">
+<div class="text" style="display: none">
   <h1>我儿子终于长大了。</h1>
+  <br>
   <p>Eric Guo生日快乐[Smile]</p>
+<!--  <br>
+  <p style="font-size: 5pt;">http://EricGuo.design/</p>-->
 </div>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js'></script>
 
         <script src="js/index.js"></script>
-
-
-
-
+<script>
+setTimeout(
+  function()
+  {
+$( "div:hidden:first" ).fadeIn( "slow" );
+    //do something special
+  }, 7000);
+ </script>
   </body>
 </html>
